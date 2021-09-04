@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Simple Kalkulator </title>
+</head>
+<script language="JavaScript">
+	<!--
+		function tambah(a,b) {
+			document.kirim.T3.value = Number(a)+Number(b); 
+		}
+		function kurang(a,b) {
+			document.kirim.T3.value = (a-b);
+		}
+		function kali(a,b) {
+			document.kirim.T3.value = (a*b);
+		}
+		function bagi(a,b) {
+			document.kirim.T3.value = (a/b);
+		}
+
+	
+	
+	//-->
+</script>
+<body>	
+	<fieldset style="display:inline-block; background-color: #eeeeee;">
+		<legend style="background-color:gray; color:white; padding: 5px 10px;">Simple Kalkulator</legend>
+		<form method="POST" name="kirim">
+			<p>Bil 1 <input type="number" name="T1" size="20"></p>
+			<p>Bil 2 <input type="number" name="T2" size="20"></p>
+			<p>Hasil <input type="number" name="T3" size="20"></p>
+			<input type="button" value="+" name="B1" onclick="tambah(document.kirim.T1.value, document.kirim.T2.value)">
+			<input type="button" value="-" name="B2" onclick="kurang(document.kirim.T1.value, document.kirim.T2.value)">
+			<input type="button" value="×" name="B3" onclick="kali(document.kirim.T1.value, document.kirim.T2.value)">
+			<input type="button" value="÷" name="B4" onclick="bagi(document.kirim.T1.value, document.kirim.T2.value)">
+		</form>
+	</fieldset>
+</body>
+</html>
