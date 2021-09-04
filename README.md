@@ -12,7 +12,7 @@
 ## 6.Kondisi Else
 ![Alt Text](https://github.com/abdlh05/Praktikum-Modul-JavaScript/blob/main/Praktikum%20JavaScript/ss%20praktikum%201/Kondisi%20else.png?raw=true)
 
-## Praktikum 2 (Simple Kalkulator)
+# Praktikum 2 (Simple Kalkulator)
 ## 1.Penjumlahan
 ![Alt Text](https://github.com/abdlh05/Praktikum-Modul-JavaScript/blob/main/Praktikum%20JavaScript/ss%20praktikum%202/penjumlahan.png?raw=true)
 ## 2.Pengurangan
